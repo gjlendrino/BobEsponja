@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorIncomingCallBackground"
-    tools:context=".IncomingCallActivity">
+    android:background="@color/colorCallBackground"
+    tools:context=".CallActivity">
 
     <ImageView
         android:id="@+id/imageViewBobEsponjaCazandoMedusas"
@@ -43,33 +43,21 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewBobEsponja" />
 
-    <TextView
-        android:id="@+id/textViewLlamando"
-        android:textColor="@android:color/primary_text_dark"
-        android:textSize="30sp"
-        android:layout_marginTop="16dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/llamando"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textViewBobEsponjaTelefono" />
-
     <ImageView
-        android:id="@+id/imageViewAnswer"
-        app:srcCompat="@drawable/telefonollamar"
-        android:contentDescription="@string/bob_esponja"
-        android:onClick="gotoCallActivity"
+        android:id="@+id/imageViewRectangle"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.15"
-        app:layout_constraintWidth_percent="0.25"
+        android:contentDescription="@string/bob_esponja"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.65"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintWidth_percent="1.0"
+        app:srcCompat="@drawable/rectangle2" />
 
     <ImageView
         android:id="@+id/imageViewHang"
@@ -84,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias=".95" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

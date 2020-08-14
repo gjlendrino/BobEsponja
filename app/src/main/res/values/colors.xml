@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorMainBackground">#E86E93</color>
+    <color name="colorIncomingCallBackground">#3088E2</color>
+    <color name="colorIncomingCallFont">#FFFFFF</color>
+    <color name="colorCallBackground">#1E374B</color>
+    <color name="colorCallFont">#FFFFFF</color>
 </resources>
